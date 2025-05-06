@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Payment Successful</title>
+</head>
+<body>
+  <h1>Payment Successful!</h1>
+  <p>Thank you for your payment. The gate is opening----</p>
+
+  <!-- Firebase v9 SDK as ES Modules -->
+  <script type="module">
+    // Import Firebase modules
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+    import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js";
+
+    // Your Firebase config
+    const firebaseConfig = {
+      apiKey: "AIzaSyCL1BLulaoDdRfe0lfXG94NqUWxIwbGIjs",
+      authDomain: "smart-parking-system-55814.firebaseapp.com",
+      databaseURL: "https://smart-parking-system-55814-default-rtdb.firebaseio.com",
+      projectId: "smart-parking-system-55814",
+      storageBucket: "smart-parking-system-55814.appspot.com",
+      messagingSenderId: "126169463299",
+      appId: "1:126169463299:web:11ac3b7e44267561486c36"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getDatabase(app);
+
+    // Write "paid" to Firebase
+    set(ref(db, "gate_control/payment_status"), "paid")
+      .then(() => {
+        console.log("✅ Payment status updated to 'paid'");
+      })
+      .catch((error) => {
+        console.error("❌ Error writing to Firebase:", error);
+      });
+  </script>
+</body>
+</html>
