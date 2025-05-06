@@ -47,4 +47,9 @@ An **IoT-based Smart Parking System** designed to monitor real-time parking slot
 - QR-based access and payment  
 - License plate recognition  
 - Reservation system  
-- Integration with smart traffic lights  
+- Integration with smart traffic lights
+
+
+
+QR ![QR PARKING](https://github.com/user-attachments/assets/98f10c69-ea3d-4e45-a4a8-29c9b8eded4d)
+
