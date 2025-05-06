@@ -1,47 +1,50 @@
-Smart Parking System 🚗📶
-An IoT-based Smart Parking System designed to monitor real-time parking slot availability, reduce urban traffic congestion, and support smart city infrastructure with sensor-based data collection.
+# Smart Parking System 🚗📶
 
-🔧 Project Scope
-Real-Time Slot Monitoring
-Detects and displays real-time parking slot status (occupied/vacant) using IR or proximity sensors.
+An **IoT-based Smart Parking System** designed to monitor real-time parking slot availability, reduce urban traffic congestion, and support smart city infrastructure with sensor-based data collection.
 
-User-Friendly Interface
-Web or mobile dashboard for users to check slot availability in selected parking areas.
+---
 
-Sensor-Based Detection
-Utilizes IR sensors and microcontrollers (Arduino/Raspberry Pi) for accurate vehicle detection.
+## 🔧 Project Scope
 
-Cloud-Connected Storage
-Live slot data is uploaded to a centralized cloud database for instant access.
+- **Real-Time Slot Monitoring**  
+  Detects and displays real-time parking slot status (occupied/vacant) using IR or proximity sensors.
 
-Admin Dashboard
-Admins can monitor, manage slots, and generate usage reports for planning.
+- **User-Friendly Interface**  
+  Web or mobile dashboard for users to check slot availability in selected parking areas.
 
-Urban Traffic Optimization
-Helps reduce time spent searching for parking, easing city traffic flow.
+- **Sensor-Based Detection**  
+  Utilizes IR sensors and microcontrollers (Arduino/Raspberry Pi) for accurate vehicle detection.
 
-Smart City Integration
-Collects historical parking data to assist urban development and traffic management.
+- **Cloud-Connected Storage**  
+  Live slot data is uploaded to a centralized cloud database for instant access.
 
-Modular & Scalable Design
-Easily adaptable from small private lots to large multi-level parking facilities.
+- **Admin Dashboard**  
+  Admins can monitor, manage slots, and generate usage reports for planning.
 
-📦 Technologies Used
-Hardware: Arduino / Raspberry Pi, IR Sensors, Servo Motors, LCD Display
+- **Urban Traffic Optimization**  
+  Helps reduce time spent searching for parking, easing city traffic flow.
 
-Connectivity: ESP8266 / ESP32, Wi-Fi
+- **Smart City Integration**  
+  Collects historical parking data to assist urban development and traffic management.
 
-Database: Firebase / Cloud-based service
+- **Modular & Scalable Design**  
+  Easily adaptable from small private lots to large multi-level parking facilities.
 
-Frontend: Web dashboard / Mobile app (optional)
+---
 
-Backend: REST APIs / Firebase integration
+## 📦 Technologies Used
 
-🚀 Future Enhancements
-QR-based access and payment
+- **Hardware:** Arduino / Raspberry Pi, IR Sensors, Servo Motors, LCD Display  
+- **Connectivity:** ESP8266 / ESP32, Wi-Fi  
+- **Database:** Firebase / Cloud-based service  
+- **Frontend:** Web dashboard / Mobile app (optional)  
+- **Backend:** REST APIs / Firebase integration  
 
-License plate recognition
+---
 
-Reservation system
+## 🚀 Future Enhancements
 
-Integration with smart traffic lights
+- QR-based access and payment  
+- License plate recognition  
+- Reservation system  
+- Integration with smart traffic lights  
