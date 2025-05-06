@@ -45,4 +45,3 @@ License plate recognition
 Reservation system
 
 Integration with smart traffic lights
-
